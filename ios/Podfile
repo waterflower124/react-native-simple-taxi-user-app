@@ -1,0 +1,13 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'taxiuserapp' do
+  pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
+  pod 'React', :path => '../node_modules/react-native'
+  pod 'react-native-sqlite-storage', :path => '../node_modules/react-native-sqlite-storage'
+
+  pod 'react-native-background-timer', :path => '../node_modules/react-native-background-timer'
+
+end
+
+
